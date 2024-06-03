@@ -39,15 +39,3 @@ sh scripts/slurm_train.sh ${PARTITION} ${JOB_NAME} ${NUM_GPUS} --cfg_file ${CONF
 ```
 
 * Waymo (Two stage training schame)
-```shell script
-#LiDAR branch
-sh scripts/dist_train.sh ${NGPUSLIST} ${NUM_GPUS} --cfg_file ${CONFIG_FILE}
-#LoGoNet branch
-sh scripts/dist_train_mm.sh ${NGPUSLIST} ${NUM_GPUS} --cfg_file ${CONFIG_FILE} --pretrained_model ${PRETRAINED_MODEL_PATH}
-# or 
-
-#LiDAR branch
-sh scripts/slurm_train.sh ${PARTITION} ${JOB_NAME} ${NUM_GPUS} --cfg_file ${CONFIG_FILE}
-#LoGoNet branch
-sh scripts/slurm_train_mm.sh ${PARTITION} ${JOB_NAME} ${NUM_GPUS} --cfg_file ${CONFIG_FILE} --pretrained_model ${PRETRAINED_MODEL_PATH}
-```

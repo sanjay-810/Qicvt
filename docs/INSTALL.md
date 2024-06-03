@@ -12,19 +12,19 @@
 
 - install Waymo evaluation module: `pip install waymo-open-dataset-tf-2-0-0`
 
-- install the requirements of LoGoNet: `cd LoGoNet && pip install -r requirements.txt`
+- install the requirements of qict: `cd qict && pip install -r requirements.txt`
 
-- install the requirements of image_modules: `cd LoGoNet/detection/models/image_modules/swin_model && pip install -r requirements.txt && python setup.py develop`
+- install the requirements of image_modules: `cd qict/detection/models/image_modules/swin_model && pip install -r requirements.txt && python setup.py develop`
 
-- compile LoGoNet:
+- compile qict:
   ```
-  cd LoGoNet/utils && python setup.py develop
+  cd qict/utils && python setup.py develop
   ```
 - compile the specific algorithm module:
   ```
-  cd LoGoNet/detection  && python setup.py develop
+  cd qict/detection  && python setup.py develop
   ```
 - compile the specific dcn module:
   ```
-  cd LoGoNet/detection/al3d_det/models/ops  && python setup.py develop
+  cd qict/detection/al3d_det/models/ops  && python setup.py develop
   ```
