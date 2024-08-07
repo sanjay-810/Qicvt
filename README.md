@@ -1,4 +1,4 @@
-# Quantum Inverse Contextual Vision Transformers (Q-ICVT): A New Frontier in 3D Object Detection for AVs (CIKM 2024)
+# Quantum Inverse Contextual Vision Transformers (Q-ICVT): A New Frontier in 3D Object Detection for AVs (CIKM 2024 Accepted)
 <p align="center"> <img src='docs/figs/cikm.png' align="center" height="300px"> </p>
 
 This is the official implementation of [**Quantum Inverse Contextual Vision Transformers (Q-ICVT): A New Frontier in 3D Object Detection for AVs**]
